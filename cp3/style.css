@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5377c5ab;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+    background-color: #ffffffa6;
+    padding: 50px;
+    gap: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.400);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.input-card {
+    width: 350px;
+    gap: 4px;
+}
+
+.input-card, .convidado-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-card input, .input-card button {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-card button{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-card button {
+    background-color: #3b28a7;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-card button:hover {
+    background-color: #42358ae7;
+}
+
+.lista-convidados {
+    margin-top: 20px;
+}
+
+.convidado-card {
+    background-color: #5377c5ab;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.convidado-card:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.lista-cards{
+    width: 350px;
+    height: 170px;
+    overflow-y: scroll; 
+}
+
